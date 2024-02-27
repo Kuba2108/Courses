@@ -1,0 +1,56 @@
+.all_courses_main_title {
+  display: flex;
+  margin-bottom: 56px;
+}
+.all_courses_main_title h1 {
+  margin-left: 0;
+  font-size: 40px;
+}
+.all_courses_main_title button {
+  margin-right: 0;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #f72585;
+  border: none;
+  font-family: "Montserrat";
+  color: #fff;
+  padding: 16px 40px 16px 40px;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  border: 1px solid red;
+  z-index: 50;
+}
+main {
+  padding: 50px;
+}
+.rating_btn {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.all_courses_content{
+  display: flex;
+  margin-left: 0;
+}
+.drop_downs{
+  margin-right: 0;
+  margin-left: 0;
+}
+.lateral_line{
+  margin-left: 0;
+  width: 1px;
+  background-color: #d7d7d8;
+  height: 1550px;
+}
+.all_courses_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.card_trending{
+  height: 385px;
+}

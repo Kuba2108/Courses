@@ -1,0 +1,49 @@
+.counter {
+margin-bottom: 160px;
+height: 250px;
+}
+.counter_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_quantity{
+    font-family: "Rubik";
+    color: #1C3554;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.counter_quantity_oneK{
+margin-bottom: 16px;
+font-family: "Rubik";
+text-align: center;
+}
+.counter_img_profile_counter {
+display: flex;
+margin-bottom: 8px;
+width: 54px;
+}
+.counter_img {
+    display: flex;
+    margin-bottom: 8px;
+}
+.counter_img_students {
+    display: flex;
+    width: 60px;
+    margin-bottom: 20px;
+}
+.counter_name{
+    font-family: "Rubik";
+    font-weight: 400;
+    text-align: center;
+}
+.flag {
+    width: 40px;
+    display: flex;margin-bottom: 17px;
+}
+.piramida {
+    background: url(../assets/svg/Piramida.svg) no-repeat;
+    width: 145px;
+    height: 280px;
+    display: flex;
+    margin-right:-179px;
+}

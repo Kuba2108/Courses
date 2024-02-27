@@ -1,0 +1,24 @@
+.main_title{
+    display: flex;
+    margin-bottom: 58px;
+}
+.main_title h1 {
+    margin-left: 0;
+    font-size: 40px;
+}
+.main_title button {
+margin-right: 0;
+width: 288px;
+background-color: #F72585;
+color: white;
+border: none;
+border-radius: 10px;
+font-family: "Montserrat";
+font-weight: 600;
+height: 60px;
+}
+.topic_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 160px;
+}

@@ -1,0 +1,152 @@
+.background__card__hero {
+  background-color: #021934;
+  width: 1360px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-bottom: 100px;
+  height: 800px;
+}
+.hero {
+  display: flex;
+}
+.big__text__hero {
+  font-family: "Rubik";
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 88px;
+  padding-top: 88px;
+}
+.p__text__hero {
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 24px;
+  font-family: "Montserrat";
+}
+.input__hero {
+  margin-top: 66px;
+}
+.hero__right{
+    margin: 0;
+    height: 20px;
+}
+.hero__right img {
+  margin-top: 65px;
+  width: 440px;
+  border-radius: 10px;
+  z-index: 2;
+  /* margin: 0; */
+}
+.color_card_hero {
+  padding: 25px;
+  width: 20px;
+}
+.hero_bell {
+  margin-top: -500px;
+  margin-right: -150px;
+}
+
+.hero_bell img {
+  width: 40px;
+  position: relative;
+  bottom: 44px;
+  left: 76px;
+  margin: 0;
+  /* padding: 20px; */
+}
+.hero_bell_card {
+  margin-top: -200px;
+  right: 200px;
+  border-radius: 6px;
+  position: relative;
+  background-color: #4586d6;
+  transform: rotate(69deg);
+}
+.hero_verification {
+  margin-top: 100px;
+}
+.hero_verification img {
+  width: 35px;
+  position: relative;
+  margin: 0;
+  left: 32px;
+  transform: rotate(-50deg);
+  bottom: 172px;
+  /* padding: 20px; */
+}
+.hero_verification_card {
+  position: relative;
+  background-color: #f72585;
+  bottom: 130px;
+  right: 170px;
+  border-radius: 6px;
+  transform: rotate(70deg);
+}
+
+.hero_heart {
+  margin-top: 150px;
+}
+.hero_heart img {
+  width: 40px;
+  position: relative;
+  margin: 0;
+  left: 389px;
+  bottom: 44px;
+  transform: rotate(42deg);
+
+  /* padding: 20px; */
+}
+.hero_heart_card {
+  position: relative;
+  left: 189px;
+  border-radius: 6px;
+  background-color: #021934;
+  transform: rotate(-69deg);
+}
+.review__card__hero img {
+  width: 20px;
+  margin: 0;
+}
+.review__card__hero h3 {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 4px;
+  text-align: center;
+  right: -20px;
+}
+.review__card__hero p {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.review__card__hero {
+  font-family: "Rubik";
+  font-weight: 500;
+  width: 154px;
+  color: #021934;
+  position: relative;
+  border-radius: 4px;
+  height: 90px;
+  background-color: #ffffff;
+  margin-top: -140px;
+  margin-left: 260px;
+}
+.hero_stars {
+  gap: 4px;
+  margin-left: 20px;
+  /* align-items: center; */
+  display: flex;
+}
+.hero_bottom_content {
+  display: flex;
+  font-family: "Rubik";
+  margin-top: 100px;
+  /* width: 500px; */
+}
+.hero_watch img {
+  margin-left: 40px;
+}
+.hero_profile img {
+  margin-left: 40px;
+}
+.iconCourses_hero img {
+  margin-left: 40px;
+}

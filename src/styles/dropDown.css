@@ -1,0 +1,47 @@
+/* styles.css */
+.DropDown {
+    position: relative;
+    user-select: none;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .drop-text {
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 40;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .drop-text.active {
+    display: block;
+    animation: fadeIn 0.3s ease forwards;
+  }
+  
+  .drop-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .drop-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

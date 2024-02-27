@@ -1,0 +1,25 @@
+.trusted_by{
+    margin-bottom: 160px;
+}
+.trusted {
+    text-align: center;
+    font-size: 48px;
+}
+.companies {
+    display: flex;
+    gap: 106px;;
+    margin-right: 106px;
+    width: 1166px;
+    margin-top: 56px;
+    margin-bottom: 62px;
+}
+.bottom_companies {
+   
+/* display: flex; */
+}
+.logo_ipsum{
+    margin-left: 150px;
+}
+.logo {
+    margin-left: 350px;
+}

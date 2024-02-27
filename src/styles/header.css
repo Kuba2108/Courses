@@ -1,0 +1,102 @@
+.header {
+  font-family: "Montserrat";
+  
+  height: 100px;
+}
+.header__logo {
+  padding: 10px;
+}
+
+.main__header {
+  /* align-items: center;  */
+  margin-top: 37px;
+  display: flex;
+}
+.become__an__mentor {
+  font-size: 15px;
+  padding: 20px;
+}
+.login__button {
+  font-family: "Montserrat";
+  font-weight: 600;
+  width: 111px;
+  border: 1.5px solid #1c3554;
+  border-radius: 6px;
+  height: 48px;
+  background-color: #fff;
+}
+.sign_up__button {
+  margin-left: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  width: 128px;
+  height: 48px;
+  background-color: #f72585;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+}
+.modal_inputs {
+  margin-left: 15px;
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+.modal_inputs input {
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px 0px rgba(80, 74, 39, 0.2);
+  border: 0;
+  border: 0.3px solid #e5e5e5;
+  padding: 10px 150px;
+  padding-left: 20px;
+  outline: 0;
+}
+.sign_up_modal_btn {
+  display: flex;
+}
+
+.modal_sign_up {
+  color: #fff;
+  font-family: "Montserrat";
+  border-radius: 6px;
+  background: rgb(4, 39, 98);
+  background: linear-gradient(
+    31deg,
+    rgba(4, 39, 98, 1) 0%,
+    rgba(122, 39, 186, 1) 100%
+  );
+  border: none;
+  padding: 10px 50px;
+}
+.modal_window{
+  display: flex;  
+}
+.modal_window p {
+  color: green;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.error_message p {
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+.translation_btn{
+  margin: 0;
+  margin-top: 10px;
+}
+.translation_btn button{
+  border: 0;
+    padding: 8px 12px;
+    background-color: transparent;
+    border-radius: 3px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.translation_btn button.active{
+  background-color: #1c3554;
+  color: white;
+}

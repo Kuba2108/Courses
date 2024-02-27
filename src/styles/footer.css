@@ -1,0 +1,53 @@
+.background__card {
+    background-color: #021934;
+    width: 1360px;
+    color: #fff;
+    border-radius:5px ;
+    padding-top: 80px;
+    height: 470px;
+    margin-bottom: 40px;
+}
+.footer {
+    font-family: "Montserrat";
+    display: flex;
+}
+.logo__text {
+    margin-right: 120px;
+}
+.logo__white {
+    margin-bottom: 36px;
+}
+.footer__small__text {
+    line-height: 27px;
+    /* margin-bottom: 30px; */
+    color: #e9e6e6;
+}
+.footer__right {
+    display: flex;
+    gap: 104px;
+}
+.r_f_text {
+    margin-bottom: 24px;
+}
+.footer__bottom {
+    display: flex;
+    font-family: "Montserrat";
+    justify-content: space-between;
+    margin-top: 139px;
+}
+.footer__two__small__text{
+    display: flex;
+    margin-left: 15px;
+    width: 650px;
+    gap: 40px;
+    font-weight: 400;
+
+}
+.footer__one__small__text {
+    margin-right: 15px;
+    font-weight: 300;
+}
+.footer__paragraph {
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+}

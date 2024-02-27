@@ -1,0 +1,36 @@
+.Prog_courses{
+    margin-bottom: 160px;
+}
+.path-home {
+    color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+.path_home {
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.prog_title{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+.small_prog_title{
+    margin-left: 0px;
+    font-family: "Montserrat";
+    line-height: 24px;
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+    width: 750px;
+    margin-bottom: 56px;
+}
+h1{
+    color: #1C3554;
+
+}
+.most_popular{
+    margin-bottom: 32px;
+}
+.popular_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

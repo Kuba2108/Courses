@@ -1,0 +1,49 @@
+.latest_title {
+  margin-top: 64px;
+  margin-bottom: 116px;
+}
+.latest_card {
+  display: flex;
+  margin-bottom: 56px;
+}
+.dot{
+    color: #4586D6;
+}
+.latest_card_text {
+  margin-left: 64px;
+}
+.latest_card_text h2 {
+  margin: 0;
+  color: #1c3554;
+  font-family: "Rubik";
+  width: 400px;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+.latest_card img {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+}
+.data_card{
+    font-weight: 600;
+    color: #808080;
+    margin-bottom: 16px;
+        font-family: "Montserrat";
+}
+.latest_information{
+    width: 550px;
+    color: rgb(133, 133, 133);
+    margin-bottom: 72px;
+    font-family: "Montserrat";
+}
+.latest_card_text button{
+    width: 156px;
+    height: 56px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    background-color: #F72585;
+    border: none;
+    border-radius: 6px;
+}

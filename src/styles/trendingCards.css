@@ -1,0 +1,120 @@
+.trending_cards {
+   margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+ }
+ .card_trending:hover{
+   box-shadow: 36px 39px 64px 0px rgba(80, 74, 39, 0.2);
+  }
+  .card_trending {
+    transition-duration:0.5s;
+    transition-property: all;
+ }
+ .card_trending img {
+   width: 262px;
+   margin-left: 15px;
+   margin-top: 15px;
+   border-radius: 3px;
+  }
+  .very_long__card_text {
+   padding-left: 10px;
+ 
+  }
+  .long__card_text {
+   padding-left: 13px;
+ 
+  }
+.short__card_text {
+  padding-left: 30px;
+  
+}
+.middle__card_text {
+  padding-left: 20px;
+  
+}
+.card_text {
+  width: 135px;
+  height: 40px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #4586d6;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  margin-top: -25px;
+  justify-content: center;
+  align-items: center;
+}
+.card_trending {
+  /* border: 1px solid red; */
+  margin: 0;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  width: 295px;
+}
+.card_trending h5 {
+  font-family: "Rubik";
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 15px;
+  /* text-align: center; */
+}
+.card_trending p {
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #F72585;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+}
+.trending__stars img {
+    width: 20px;
+    margin: 0;
+    margin-right: 3px;
+}
+.trending__stars{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.trending__stars p {
+    color: #808080;
+    font-size: 14px;
+    padding-bottom:6px;
+    margin-left: 2px;
+}
+.price_trending_card {
+  display: flex;
+  margin-left: 15px;
+}
+.del_text {
+  color: #cccccc;
+  font-family: "Montserrat";
+  margin: 0;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.price_trending {
+  font-family: "Rubik";
+  color: #1C3554;
+  margin: 0;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.plus{
+  margin-bottom: 20px;
+  margin-left: 140px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  background-color: #4586d6;
+  padding:5px 10px;
+}

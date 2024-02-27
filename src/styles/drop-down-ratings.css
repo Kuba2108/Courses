@@ -1,0 +1,79 @@
+.DropDownRatings {
+    position: static;
+    user-select: none;
+  }
+  .rating-text {
+    color: gray;
+    margin-left: 6px;
+  }
+
+  
+  .dropDownRatings-btn {
+    cursor: pointer;
+    width: 200px;
+margin-left: 0;
+  }
+  
+  .drop-text_rating {
+    opacity: 0;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: #fff;
+    padding: 5px;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, height 0.3s ease;
+  }
+  
+  .drop-text_rating.active {
+    opacity: 1;
+    height: auto;
+  }
+  
+  
+  .ratings-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .drop-item_rating{
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .stars-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
+.rating_information{
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+    font-family: "Montserrat";
+    color: #1C3554;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.rating_information p{
+    margin-left: 8px;
+}
+.drop_rating_text{
+    font-family: "Rubik";
+    font-size: 20px;
+    width: 200px;
+    margin-left: 0;
+    color: #1C3554;
+}
+.input_drop{
+    cursor: pointer;
+}

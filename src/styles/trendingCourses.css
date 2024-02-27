@@ -1,0 +1,127 @@
+.trending h1 {
+    font-size: 48px;
+    text-align: center;
+}
+.buttons_filter Button {
+    font-family: "Montserrat";
+    width: 167px;
+    line-height: normal;
+    border-radius: 10px;
+    height: 48px;
+}
+.buttons_filter{
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 32px;
+    margin-left: 120px;
+    gap: 30px;
+}
+.card_bottom{
+    display: flex;
+}
+.count{
+    display: flex;
+}
+.number {
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-family: "Rubik";
+    /* background-color: red; */
+}
+.count button{
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: dodgerblue;
+    margin: 0;
+    border-radius: 6px;
+    padding: 8px 13px;
+    margin-bottom: 20px;
+}
+.month{
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin: 0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.search_card{
+    display: flex;
+    height: 50px;
+    border: 0.5px solid rgb(186, 185, 185);
+    width: 250px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+}
+.saved-courses {
+    margin-top: 20px;
+  }
+  
+  .saved-course {
+    flex-wrap: wrap;
+    margin-bottom: 20px; 
+    border-radius: 6px;
+    padding: 10px; 
+    width: 280px;
+    display: inline-block; 
+    vertical-align: top; 
+    transition: all 0.5s }
+  .saved-course:hover{
+    box-shadow: 36px 39px 64px 0px rgba(80, 74, 39, 0.2);
+
+  }
+  .saved-course img {
+    display: flex;
+    border-radius: 6px;
+    width: 250px;
+    /* height: 200px; */
+  }
+  .saved-course p{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #F72585;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .saved-course h5{
+    font-family: "Rubik";
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .saved_courses_title {
+    font-family: "Rubik";
+    border-radius: 10px;
+    border: 0.5px solid  #F72585;
+    color: #F72585;
+    background-color: #fff;
+    font-weight: 600;
+    width: 288px;
+    height: 60px;
+    margin-right: 25px;
+    
+  }
+  .more__courses {
+  width: 288px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #F72585;
+  border: none;
+  border-radius: 10px;
+  position:absolute;
+  color: #fff;
+}
+.more_btn{
+  width: 600px;
+  margin-bottom: 160px;
+}
