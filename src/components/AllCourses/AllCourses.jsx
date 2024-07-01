@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DropDownRatings from '../ui/DropDowns/DropDownCourses/DropDownratings';
+import DropDownRatings from '../ui/DropDowns/DropDownCourses/DropDownRatings';
 import { useTranslation } from "react-i18next";
 import DropDownDurations from '../ui/DropDowns/DropDownCourses/DropDownDurations';
 import DropDownCatalog from '../ui/DropDowns/DropDownCourses/DropDownCatalog';

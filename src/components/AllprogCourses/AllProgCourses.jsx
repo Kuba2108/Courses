@@ -83,11 +83,13 @@ const AllProgCourses = () => {
       <div className="topic_cards">
         {filteredCategories.map((category, index) => (
           <div className="card_categories" key={index}>
+            <div className="img_hover_div">
             <img
               className="categories_img"
               src={category.image}
               alt={category.name}
-            />
+              />
+              </div>
             <button className="categories_name">{category.name}</button>
           </div>
         ))}

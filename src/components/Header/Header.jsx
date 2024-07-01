@@ -118,20 +118,20 @@ const Header = () => {
               </button>
             </div>
             <div className="error_message">
-              {errorMessage && <p>{errorMessage}</p>}
+              {errorMessage && <p>{t(errorMessage)}</p>}
             </div>
           </Modal>
           <ModalLogIn Active={logInModalActive} setActive={setLogInModalActive}>
             <div className="modal_inputs">
               <input
                 type="email"
-                placeholder="Email"
+                placeholder={t("Email")}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 type="password"
-                placeholder="Password"
+                placeholder={t("Password")}
                 value={passwordLogIn}
                 onChange={(e) => setPasswordLogIn(e.target.value)}
               />
@@ -142,7 +142,7 @@ const Header = () => {
               </button>
             </div>
             <div className="error_message">
-              {errorMessage && <p>{errorMessage}</p>}
+              {errorMessage && <p>{t(errorMessage)}</p>}
             </div>
           </ModalLogIn>
         </div>

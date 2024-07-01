@@ -190,7 +190,7 @@ const TrendingCourses = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <div className="count">
-          <button onClick={() => setCount(count + 1)} disabled={count === 12}>
+          <button onClick={() => setCount(count + 1)} disabled={count === 6 }>
             +
           </button>
           <h2 className="number">{count}</h2>
