@@ -12,17 +12,17 @@ const AppRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Layout/>} >
-          <Route index element={<HomePage/>}/>
-          <Route path='/courses' element={<CoursesPage/>}/>
-          <Route path='/blog' element={<BlogPage/>}/>
-          <Route path='/courses/detailCourses' element={<DetailCoursesPage/>}/>
-          <Route path='/courses/allCourses' element={<AllCoursesPage/>  }/>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/courses" element={<CoursesPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/courses/detailCourses" element={<DetailCoursesPage />} />
+          <Route path="/courses/allCourses" element={<AllCoursesPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </Router>
   );
-}
+};
 
 export default AppRoutes;
